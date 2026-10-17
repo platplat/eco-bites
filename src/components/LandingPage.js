@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles.css";
  
-function LandingPage() {
+function LandingPage(props) {
   
   return (
   <div className="app-container">
@@ -14,6 +14,7 @@ function LandingPage() {
 
       <button 
           className="nav-button"
+          onClick={() => props.onNavigate("student")}
         >
       🎓 Student
       </button>
@@ -22,6 +23,7 @@ function LandingPage() {
         
       <button 
           className="nav-button"
+          onClick={() => props.onNavigate("provider")}
         >
       🥗 Provider
       </button>
