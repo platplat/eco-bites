@@ -22,7 +22,7 @@ By facilitating real-time food drop discovery, location details, and listings, E
 ## 🛠️ Tech Stack
 
 - **Framework / Library:** React.js
-- **Language:** JavaScript
+- **Language:** JavaScript, HTML, CSS
 
 ---
 
@@ -33,6 +33,10 @@ ecobites/
 ├── public/
 │   └── index.html
 ├── src/
+│   ├── assets/
+│   │   ├── ecobites_full_logo.png
+│   │   ├── ecobites_icon.png
+│   │   └── spicecoders_icon.png
 │   ├── components/
 │   │   ├── LandingPage.js      # Main entry screen
 │   │   ├── StudentView.js      # Student portal
