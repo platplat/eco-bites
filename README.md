@@ -45,6 +45,7 @@ ecobites/
 │   ├── styles.css
 │   └── index.js
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
