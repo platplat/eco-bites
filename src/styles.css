@@ -13,6 +13,11 @@ html, body {
   text-align: center;
 }
 
+.tagline {
+  font-style: italic;
+  font-size: small;
+}
+
 .header-logo {
   display: block;
   height: auto;

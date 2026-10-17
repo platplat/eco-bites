@@ -7,6 +7,7 @@ function LandingPage(props) {
   
   return (
   <div className="app-container">
+    <p className="tagline">Connecting campus food providers with hungry students to help eliminate food waste.</p>
     <img className="header-logo" src={ecobites_logo} alt="EcoBites logo" />
 
     <h2>Welcome!</h2>
