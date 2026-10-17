@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eco-bites/static/css/main.3f23ab1e.css",
+    "main.js": "/eco-bites/static/js/main.74a3635e.js",
+    "static/media/ecobites_full_logo.png": "/eco-bites/static/media/ecobites_full_logo.41d5e350ec35dfed31dc.png",
+    "static/media/spicecoders_icon.png": "/eco-bites/static/media/spicecoders_icon.bdb4afcb573cd5ba9146.png",
+    "index.html": "/eco-bites/index.html",
+    "main.3f23ab1e.css.map": "/eco-bites/static/css/main.3f23ab1e.css.map",
+    "main.74a3635e.js.map": "/eco-bites/static/js/main.74a3635e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f23ab1e.css",
+    "static/js/main.74a3635e.js"
+  ]
+}
