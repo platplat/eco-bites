@@ -1,10 +1,19 @@
-import "./styles.css";
+import React, { useState } from "react";
 
-export default function App() {
+// Import child components
+import LandingPage from "./components/LandingPage.js";
+ 
+function App() {
+  // Top-level states managed by App.js
+  const [currentView, setCurrentView] = useState("landing");
+  
   return (
-    <div className="App">
-      <h1>EcoBites</h1>
-      <h2>Less waste, more taste!</h2>
-    </div>
+  <div className="app">
+    {currentView === "landing" && (
+      <LandingPage onNavigate={(view) => setCurrentView(view)} />
+    )}
+  </div>
   );
 }
+
+export default App;
