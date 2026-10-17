@@ -6,16 +6,16 @@
 
 ## 📌 Project Overview
 
-**EcoBites** is a mobile-responsive React web application built for **CS385 Mobile Application Development**. Developed under the theme of **"A Sustainable Environment,"** EcoBites bridges the gap between campus food providers (canteens, catering, event organizers) with surplus food and students seeking affordable or free meals.
+**EcoBites** is a React web application in development for **CS385 Mobile Application Development**. Developed under the theme of **"A Sustainable Environment,"** EcoBites bridges the gap between campus food providers (canteens, catering, event organizers) with surplus food and students seeking affordable or free meals.
 
-By facilitating real-time food drop discovery, location details, and listings, EcoBites aims to reduce campus food waste while supporting student food accessibility.
+By facilitating food drop discovery, location details, and listings, EcoBites aims to reduce campus food waste while supporting student food accessibility.
 
 ---
 
 ## ✨ Current Features & Architecture
 
-- 🔀 **Single-Page View Routing:** Top-level conditional rendering in `App.js` using `useState` and short-circuit evaluation (`&&`) to swap complete page views (`LandingPage`, `StudentView`, `ProviderView`) cleanly without external routing libraries.
-- 🔄 **Unidirectional Data Flow:** React props and callback handlers (`onNavigate`, `onGoHome`) pass state updates between parent and child components.
+- **Single-Page View Routing:** Top-level conditional rendering in `App.js` using `useState` and short-circuit evaluation (`&&`) to swap complete page views (`LandingPage`, `StudentView`, `ProviderView`) cleanly without external routing libraries.
+- **Unidirectional Data Flow:** React props and callback handlers (`onNavigate`, `onGoHome`) pass state updates between parent and child components.
 
 ---
 
