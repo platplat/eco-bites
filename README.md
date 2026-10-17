@@ -19,6 +19,31 @@ By facilitating real-time food drop discovery, location details, and listings, E
 
 ---
 
+## 🗺️ Project Roadmap
+
+- [x] **Phase 1: Core Architecture (Completed ✅)**
+  - [x] Mobile-first React UI with single-page conditional view navigation
+  - [x] Custom branding integration
+  - [ ] Automated CI/CD deployment pipeline via GitHub Actions (`.github/workflows/deploy.yml`) to GitHub Pages
+
+- [ ] **Phase 2: Student View (In Progress 🏗️)**
+  - [ ] **Search Bar:** Controlled input filtering `foodDrops` by title or location using `.filter()`.
+  - [ ] **Dynamic Card Grid:** Rendering filtered items using `.map()` with unique `key` props.
+  - [ ] **Category Pills/Filters:** Quick filter buttons (`All`, `Vegan`, `Vegetarian`, `Gluten-Free`).
+  - [ ] **Claim Action & State Update:** "Claim" button that reduces available quantity in state and displays a pickup confirmation pass
+
+- [ ] **Phase 3: Provider View (Planned 🔮)**
+  - [ ] **Controlled Form:** Input fields for Title, Location, Quantity, Expiry, and Tag checkboxes.
+  - [ ] **Validation:** Ensuring empty submissions are prevented.
+  - [ ] **Submission Handler**
+
+- [ ] **Phase 4: Sustainability Impact (Future 🚀)**
+  - [ ] **Student Impact Dashboard:** Analytics view displaying total meals saved, estimated CO₂ offset, and personal claim history
+  - [ ] **Sustainability Badges:** Achievement milestones for active campus food savers
+  - [ ] **Provider Analytics:** Waste reduction summary metrics for campus food vendors
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Framework / Library:** React.js
