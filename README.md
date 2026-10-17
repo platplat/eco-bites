@@ -1,4 +1,4 @@
-# 🌿 EcoBites
+![EcoBites logo](./src/assets/ecobites_full_logo.png)
 
 > **Connecting campus food providers with hungry students to help eliminate food waste.**
 
@@ -12,7 +12,7 @@ By facilitating real-time food drop discovery, location details, and listings, E
 
 ---
 
-## ✨ Key Features & Architecture
+## ✨ Current Features & Architecture
 
 - 🔀 **Single-Page View Routing:** Top-level conditional rendering in `App.js` using `useState` and short-circuit evaluation (`&&`) to swap complete page views (`LandingPage`, `StudentView`, `ProviderView`) cleanly without external routing libraries.
 - 🔄 **Unidirectional Data Flow:** React props and callback handlers (`onNavigate`, `onGoHome`) pass state updates between parent and child components.
@@ -22,9 +22,9 @@ By facilitating real-time food drop discovery, location details, and listings, E
 ## 🗺️ Project Roadmap
 
 - [x] **Phase 1: Core Architecture (Completed ✅)**
-  - [x] Mobile-first React UI with single-page conditional view navigation
-  - [x] Custom branding integration
-  - [ ] Automated CI/CD deployment pipeline via GitHub Actions (`.github/workflows/deploy.yml`) to GitHub Pages
+  - [x] **Single-Page View Routing:** Top-level conditional rendering in `App.js` using `useState` to swap between views
+  - [x] **Custom Branding Integration:** Asset integration featuring custom PNG graphical branding
+  - [x] **Automated CI/CD Pipeline:** Continuous deployment via GitHub Actions (`.github/workflows/deploy.yml`) that automatically builds and deploys updates to GitHub Pages
 
 - [ ] **Phase 2: Student View (In Progress 🏗️)**
   - [ ] **Search Bar:** Controlled input filtering `foodDrops` by title or location using `.filter()`.
@@ -55,6 +55,9 @@ By facilitating real-time food drop discovery, location details, and listings, E
 
 ```text
 ecobites/
+├── .github/
+│ ├── workflows/
+│ └── deploy.yml
 ├── public/
 │   └── index.html
 ├── src/
@@ -64,13 +67,14 @@ ecobites/
 │   │   └── spicecoders_icon.png
 │   ├── components/
 │   │   ├── LandingPage.js      # Main entry screen
-│   │   ├── StudentView.js      # Student portal
-│   │   └── ProviderView.js     # Provider portal
+│   │   ├── ProviderView.js     # Provider portal
+│   │   └── StudentView.js      # Student portal
 │   ├── App.js                  # Top-level view router
-│   ├── styles.css
-│   └── index.js
-├── package.json
+│   ├── index.js
+│   └── styles.css
+├── .gitignore
 ├── package-lock.json
+├── package.json
 └── README.md
 ```
 
@@ -82,7 +86,7 @@ ecobites/
 
 Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 
-### Installation
+### Local Setup & Execution
 
 1. **Clone the repository:**
    ```bash
@@ -105,7 +109,7 @@ Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 
 ---
 
-## 👥 Development Team — SpiceCoders
+## 👥 Development Team
 
 Built with ❤️ by **SpiceCoders** for **CS385 Mobile Application Development**:
 - **Course Theme:** A Sustainable Environment
