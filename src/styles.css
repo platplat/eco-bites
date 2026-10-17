@@ -5,6 +5,15 @@
   background-color: #f8fafc;
 }
 
+.header-logo {
+  width: 100%;
+  max-width: 512px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav-menu {
   color: #0F172A;
 }

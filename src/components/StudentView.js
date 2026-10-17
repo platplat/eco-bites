@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "../styles.css";
+import ecobites_logo from "../assets/ecobites_full_logo.png";
  
-export default function StudentView(props) {
+function StudentView(props) {
   
   return (
   <div className="app-container">
-    <h1>EcoBites</h1>
-    <h3>Less waste, more taste!</h3>
+    <img className="header-logo" src={ecobites_logo} alt="EcoBites logo" />
     <h2>Welcome, Student!</h2>
       
     <nav className="nav-menu">
@@ -23,3 +23,5 @@ export default function StudentView(props) {
   </div>
   );
 }
+
+export default StudentView;
