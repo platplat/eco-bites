@@ -12,6 +12,13 @@ By facilitating real-time food drop discovery, location details, and listings, E
 
 ---
 
+## ✨ Key Features & Architecture
+
+- 🔀 **Single-Page View Routing:** Top-level conditional rendering in `App.js` using `useState` and short-circuit evaluation (`&&`) to swap complete page views (`LandingPage`, `StudentView`, `ProviderView`) cleanly without external routing libraries.
+- 🔄 **Unidirectional Data Flow:** React props and callback handlers (`onNavigate`, `onGoHome`) pass state updates between parent and child components.
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Framework / Library:** React.js
@@ -26,7 +33,11 @@ ecobites/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── App.js
+│   ├── components/
+│   │   ├── LandingPage.js      # Main entry screen
+│   │   ├── StudentView.js      # Student portal
+│   │   └── ProviderView.js     # Provider portal
+│   ├── App.js                  # Top-level view router
 │   ├── styles.css
 │   └── index.js
 ├── package.json
@@ -45,8 +56,8 @@ Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/platplat/eco-bites
-   cd campus-ecobites
+   git clone https://github.com/platplat/eco-bites.git
+   cd eco-bites
    ```
 
 2. **Install dependencies:**
