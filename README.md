@@ -2,22 +2,22 @@
 
 > **Connecting campus food providers with hungry students to help eliminate food waste.**
 
-<br>
+---
 
 ## 📌 Project Overview
 
-**EcoBites** is a React web application in development for **CS385 Mobile Application Development**. Designed under the theme of **"A Sustainable Environment,"** EcoBites intends to bridge the gap between campus food providers (canteens, catering, event organizers) with surplus food and students seeking affordable or free meals.
+**EcoBites** is a React web application in development for **CS385 Mobile Application Development**. Developed under the theme of **"A Sustainable Environment,"** EcoBites bridges the gap between campus food providers (canteens, catering, event organizers) with surplus food and students seeking affordable or free meals.
 
 By facilitating food drop discovery, location details, and listings, EcoBites aims to reduce campus food waste while supporting student food accessibility.
 
-<br>
+---
 
 ## ✨ Current Features & Architecture
 
 - **Single-Page View Routing:** Top-level conditional rendering in `App.js` using `useState` and short-circuit evaluation (`&&`) to swap complete page views (`LandingPage`, `StudentView`, `ProviderView`) cleanly without external routing libraries.
 - **Unidirectional Data Flow:** React props and callback handlers (`onNavigate`, `onGoHome`) pass state updates between parent and child components.
 
-<br>
+---
 
 ## 🗺️ Project Roadmap
 
@@ -42,14 +42,14 @@ By facilitating food drop discovery, location details, and listings, EcoBites ai
   - [ ] **Sustainability Badges:** Achievement milestones for active campus food savers
   - [ ] **Provider Analytics:** Waste reduction summary metrics for campus food vendors
 
-<br>
+---
 
 ## 🛠️ Tech Stack
 
 - **Framework / Library:** React.js
 - **Language:** JavaScript, HTML, CSS
 
-<br>
+---
 
 ## 📁 Directory Structure
 
@@ -78,15 +78,23 @@ ecobites/
 └── README.md
 ```
 
-<br>
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+You can view our live preview below, or continue to Local Setup & Execution if you wish to run the project locally.
+
+### View our live preview!
+
+[EcoBites Live Preview](https://platplat.github.io/eco-bites/)
+
+### Local Setup & Execution
+
+#### Prerequisites
 
 Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 
-### Local Setup & Execution
+#### Steps
 
 1. **Clone the repository:**
    ```bash
@@ -107,17 +115,15 @@ Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 4. **Open in browser:**
    Navigate to `http://localhost:3000` to view the application in action.
 
-<br>
+---
 
 ## 👥 Development Team
 
 Built with ❤️ by **SpiceCoders** for **CS385 Mobile Application Development**:
-- 🤓 [Áine](https://www.github.com/platplat/)
-- 😇 [Allison](https://github.com/manman79999-bot)
-- 🤪 Megumi
-- 🥰 Zara
+- **Course Theme:** A Sustainable Environment
+- **Project Name:** EcoBites
 
-<br>
+---
 
 ## 📄 License
 
