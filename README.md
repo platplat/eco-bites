@@ -113,7 +113,7 @@ Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 
 Built with ❤️ by **SpiceCoders** for **CS385 Mobile Application Development**:
 - 🤓 [Áine](https://www.github.com/platplat/)
-- 😇 Allison
+- 😇 [Allison](https://github.com/manman79999-bot)
 - 🤪 Megumi
 - 🥰 Zara
 
