@@ -31,18 +31,18 @@ By facilitating food drop discovery, location details, and listings, EcoBites ai
   - [ ] **Dynamic Card Grid:** Rendering filtered items using `.map()` with unique `key` props.
   - [ ] **Category Pills/Filters:** Quick filter buttons (`All`, `Vegan`, `Vegetarian`, `Gluten-Free`).
   - [ ] **Claim Action & State Update:** "Claim" button that reduces available quantity in state and displays a pickup confirmation pass
+  - [ ] **Student Impact Dashboard:** Analytics view displaying total meals saved, estimated CO₂ offset, and personal claim history
 
 - [ ] **Phase 3: Provider View (Planned 🔮)**
   - [ ] **Controlled Form:** Input fields for Title, Location, Quantity, Expiry, and Tag checkboxes.
   - [ ] **Validation:** Ensuring empty submissions are prevented.
   - [ ] **Submission Handler**
-
-- [ ] **Phase 4: Sustainability Impact (Future 🚀)**
-  - [ ] **Student Impact Dashboard:** Analytics view displaying total meals saved, estimated CO₂ offset, and personal claim history
-  - [ ] **Sustainability Badges:** Achievement milestones for active campus food savers
   - [ ] **Provider Analytics:** Waste reduction summary metrics for campus food vendors
 
----
+- [ ] **Phase 4: API Integration & Data Fetching (Future 🚀)**
+  - [ ] Replace static data with dynamic API calls
+
+<br>
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +53,7 @@ By facilitating food drop discovery, location details, and listings, EcoBites ai
 
 ## 📁 Directory Structure
 
-```text
+```
 ecobites/
 ├── .github/
 │ ├── workflows/
@@ -82,25 +82,33 @@ ecobites/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+You can view our live preview below, or continue to Local Setup & Execution if you wish to run the project locally.
 
-Ensure you have Node.js (v14 or higher) and npm installed on your machine.
+### View our live preview!
+
+[EcoBites Live Preview](https://platplat.github.io/eco-bites/)
 
 ### Local Setup & Execution
 
+#### Prerequisites
+
+Ensure you have Node.js (v14 or higher) and npm installed on your machine.
+
+#### Steps
+
 1. **Clone the repository:**
-   ```bash
+   ```
    git clone https://github.com/platplat/eco-bites.git
    cd eco-bites
    ```
 
 2. **Install dependencies:**
-   ```bash
+   ```
    npm install
    ```
 
 3. **Start the local development server:**
-   ```bash
+   ```
    npm start
    ```
 
@@ -112,10 +120,12 @@ Ensure you have Node.js (v14 or higher) and npm installed on your machine.
 ## 👥 Development Team
 
 Built with ❤️ by **SpiceCoders** for **CS385 Mobile Application Development**:
-- **Course Theme:** A Sustainable Environment
-- **Project Name:** EcoBites
+- 🤓 [Áine](https://www.github.com/platplat/)
+- 😇 [Allison](https://github.com/manman79999-bot/)
+- 🤪 [Megumi] (https://github.com/mokinaka0925-meow/)
+- 🥰 [Zara] (https://github.com/zaraduffin-student/)
 
----
+<br>
 
 ## 📄 License
 
