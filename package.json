@@ -1,29 +1,35 @@
 {
   "name": "eco-bites",
+  "type": "module",
   "version": "1.0.0",
   "homepage": "https://platplat.github.io/eco-bites",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.tsx",
+  "description": "A responsive React web application designed to reduce campus food waste by connecting food providers with students.",
+  "keywords": [
+    "react",
+    "vite",
+    "javascript",
+    "eco-bites",
+    "food-waste",
+    "sustainability",
+    "campus",
+    "spicecoders",
+    "web-app"
+  ],
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
+    "@vitejs/plugin-react": "^6.3.0",
     "gh-pages": "^6.3.0",
-    "loader-utils": "3.2.1",
-    "typescript": "5.7.2"
+    "vite": "^8.3.8"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "tsc &amp;&amp; vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     ">0.2%",

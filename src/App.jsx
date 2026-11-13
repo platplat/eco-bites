@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 // Import child components
-import LandingPage from "./components/LandingPage.js";
-import StudentView from "./components/StudentView.js";
-import ProviderView from "./components/ProviderView.js";
+import LandingPage from "./components/LandingPage.jsx";
+import StudentView from "./components/StudentView.jsx";
+import ProviderView from "./components/ProviderView.jsx";
  
 function App() {
   // Top-level states managed by App.js
