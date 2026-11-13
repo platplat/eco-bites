@@ -1,3 +1,9 @@
+# VS Code
+.vscode
+
+# Environmental variables
+.env
+
 # dependencies
 /node_modules
 
