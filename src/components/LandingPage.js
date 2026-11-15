@@ -34,7 +34,7 @@ function LandingPage(props) {
     </nav>
 
     <main className="main-content">
-      <p></p>
+      <p>EcoBites connects campus canteens and merchants with surplus food to students looking for affordable or free meals, reducing food waste.</p>
     </main>
 
     <footer className="footer">
