@@ -47,6 +47,7 @@ By facilitating food drop discovery, location details, and listings, EcoBites ai
 ## 🛠️ Tech Stack
 
 - **Framework / Library:** React.js
+- **Build Tool:** Vite
 - **Language:** JavaScript, HTML, CSS
 
 ---
