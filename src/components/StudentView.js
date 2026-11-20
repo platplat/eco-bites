@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../styles.css";
 import ecobites_logo from "../assets/ecobites_full_logo.png";
 import spice_coders_logo from "../assets/spicecoders_icon.png";
-import {foodDrops} from "./FoodDrops";
 import FoodCard from "./FoodCard";
 
 
